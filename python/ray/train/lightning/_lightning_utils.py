@@ -12,6 +12,7 @@ import ray
 from ray import train
 from ray._private.usage.usage_lib import TagKey, record_extra_usage_tag
 from ray.train import Checkpoint
+import ray.train.torch
 from ray.util import PublicAPI
 
 
